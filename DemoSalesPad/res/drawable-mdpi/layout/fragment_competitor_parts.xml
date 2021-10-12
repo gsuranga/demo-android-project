@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+    <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:background="#009999"
+            android:ems="10"
+            android:text="Competitor Parts"
+            android:textColor="#ffffff"
+            android:textSize="40sp"/>
+
+    <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_alignRight="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:text="Dealer Name :"/>
+
+    <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView_dealer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textview"
+            android:layout_alignBottom="@+id/textview"
+            android:layout_alignLeft="@+id/textview"
+            android:layout_marginLeft="190dp"
+            android:ems="10"
+            android:hint="type dealer">
+    </AutoCompleteTextView>
+
+    <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textview"
+            >
+        <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TableLayout
+                    android:id="@+id/show_competitor_product"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:stretchColumns="0,1,2,3,4,5,6,7">
+            </TableLayout>
+
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+
+</RelativeLayout>

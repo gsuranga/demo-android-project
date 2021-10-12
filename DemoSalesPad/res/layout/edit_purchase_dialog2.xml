@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1500" >
+
+    <Button
+        android:id="@+id/button_edit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="500"
+        android:text="Edit Purchase Order" 
+        android:background="@drawable/greenbutton"
+        android:layout_margin="5dp"/>
+
+    
+
+    <Button
+        android:id="@+id/button_finish"
+       android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="500"
+        android:text="Finish Order" 
+        android:background="@drawable/greenbutton"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/button_sync"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="500"
+        android:text="Sync" 
+        android:background="@drawable/greenbutton"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>

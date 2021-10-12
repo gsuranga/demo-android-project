@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="bottom"
+              android:orientation="horizontal"
+              android:tag="u"
+              android:weightSum="12">
+
+    <ceylon.linux.view.CustomAutoCompleteTextView
+            android:id="@+id/town"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:hint="Town"
+            android:tag="town">
+
+        <requestFocus/>
+    </ceylon.linux.view.CustomAutoCompleteTextView>
+
+    <ceylon.linux.view.CustomAutoCompleteTextView2
+            android:id="@+id/account_code"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:hint="Dealer"
+            android:tag="account_code">
+
+        <requestFocus/>
+    </ceylon.linux.view.CustomAutoCompleteTextView2>
+
+    <EditText
+            android:id="@+id/reason"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:tag="reason"
+            android:ems="10"
+            android:hint="reason"
+            >
+
+        <requestFocus/>
+    </EditText>
+
+    <Button
+            android:id="@+id/plus"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:tag="plus"
+            android:text="+">
+
+        <requestFocus/>
+    </Button>
+
+</LinearLayout>

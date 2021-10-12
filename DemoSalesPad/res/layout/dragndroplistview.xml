@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:weightSum="5">
+
+    <com.ericharlow.DragNDrop.DragNDropListView
+            android:id="@+id/android:list"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="4.5"/>
+
+    <Button
+            android:id="@+id/show_button"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.5"
+            android:text="SHOW DATA"
+            android:textSize="20sp"/>
+
+</LinearLayout>

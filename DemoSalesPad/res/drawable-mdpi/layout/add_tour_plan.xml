@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/label_for_add_tour_plan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Tour Plan"
+                android:textSize="23sp"/>
+
+        <Spinner
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/type"
+                android:prompt="@string/type_prompt"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+            <EditText
+                    android:id="@+id/sales_officer_name"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Sales Officer ">
+
+                <requestFocus/>
+            </EditText>
+
+            <EditText
+                    android:id="@+id/a_code"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Account Code">
+
+                <requestFocus/>
+            </EditText>
+
+            <EditText
+                    android:id="@+id/tour_date"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+
+                    android:hint="Date">
+
+                <requestFocus/>
+            </EditText>
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/label_for_tour_plan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tour Plan"
+                android:textSize="23sp"/>
+
+        <LinearLayout
+                android:id="@+id/tour_iternary_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+        <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="Save">
+
+            <requestFocus/>
+        </Button>
+    </LinearLayout>
+
+</ScrollView>

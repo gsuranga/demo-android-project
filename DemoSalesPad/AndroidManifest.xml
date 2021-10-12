@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dimosales"
+    android:versionCode="15"       
+    android:versionName="1.6.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application        
+        android:allowBackup="true"               
+        android:configChanges="keyboardHidden|orientation|screenSize"
+        android:icon="@drawable/dimo_logo"
+        android:label="Dimo Sales Pad"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBh2gRuJLcAk78Opz1WEDhQDbSo8WASQ7E" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="ceylon.linux.view.Login"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ceylon.linux.view.HomeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:isScrollContainer="false"
+            android:label="@string/title_activity_home"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="ceylon.linux.fileexplorer.FileChooser"
+            android:label="Choose File"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ceylon.linux.view.CompetitorPartsAddingActivity"
+            android:label="Competitor Parts" >
+        </activity>
+        <activity
+            android:name="ceylon.linux.view.CameraActivity"
+            android:label="@string/title_activity_camera" >
+        </activity>
+        <activity
+            android:name="ceylon.linux.view.MapActivity"
+            android:label="Map "
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="ceylon.linux.view.MapViewActivty"
+            android:label="Dealer Locations "
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="ceylon.linux.view.Update_activity"
+            android:label="Update"
+            android:screenOrientation="landscape" >
+        </activity>
+
+        <service
+            android:name="ceylon.linux.service.Update_manger"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name="com.example.dimosales.DealerwiseLostSalesWv"
+            android:label="@string/title_activity_dealerwise_lost_sales_wv" >
+        </activity>
+        <activity
+            android:name="com.example.dimosales.DealerStockMovementWebViewActivity"
+            android:label="@string/title_activity_dealer_stock_movement" >
+        </activity>
+        <activity
+            android:name="com.example.dimosales.ViewLossSalesWebViewActivity"
+            android:label="@string/title_activity_view_loss_sales_web_view" >
+        </activity>
+    </application>
+
+</manifest>

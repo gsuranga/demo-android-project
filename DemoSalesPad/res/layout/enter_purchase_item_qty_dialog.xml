@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2000" >
+
+    <EditText
+        android:id="@+id/edit_qty"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="500"
+        android:hint="Enter Quantity Here"
+        android:inputType="number" />
+    
+    <EditText
+        android:id="@+id/edit_comment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="500"
+        android:hint="Enter comment Here"
+        />
+
+    <TextView
+        android:id="@+id/txt_price_with_vat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="250"
+        android:text="Selling Price With vat:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_vsd_stock"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="250"
+        android:text="VSD Stock:"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="500"
+        android:orientation="horizontal"
+        android:weightSum="1000" >
+
+        <Button
+            android:id="@+id/button_add_qty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="500"
+            android:background="@drawable/greenbutton"
+            android:text="Add Quantity" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="500"
+            android:background="@drawable/greenbutton"
+            android:text="Cancel" />
+    </LinearLayout>
+
+</LinearLayout>

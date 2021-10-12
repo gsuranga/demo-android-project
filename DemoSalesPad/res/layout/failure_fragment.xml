@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="8">
+
+    <EditText
+            android:id="@+id/sales_officer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="Sales Officer"
+            android:textSize="26sp"/>
+
+    <Spinner
+            android:id="@+id/catogery"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Purpose"
+            android:textSize="26sp"/>
+
+    <ceylon.linux.view.CustomAutoCompleteTextView
+            android:id="@+id/outlet"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="outlet"
+            android:textSize="26sp"/>
+
+    <ceylon.linux.view.CustomAutoCompleteTextView
+            android:id="@+id/part_no"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="Part No"
+            android:inputType="textMultiLine"
+            android:textSize="26sp"/>
+
+    <EditText
+            android:id="@+id/part_description"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="Description"
+            android:textSize="26sp"/>
+
+    <EditText
+            android:id="@+id/failure"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="left|top"
+            android:hint="Failure"
+            android:inputType="textMultiLine"
+            android:minLines="10"
+            android:textSize="26sp">
+
+        <requestFocus/>
+    </EditText>
+
+    <Button
+            android:id="@+id/captute_image"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Image Capture"
+            android:textSize="26sp"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+        <Button
+                android:id="@+id/save_data"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Save"
+                android:textSize="26sp"/>
+
+        <Button
+                android:id="@+id/reset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Reset"
+                android:textSize="26sp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dimo Sales</string>
+    <string name="action_settings">Sync</string>
+    <string name="logout">Logout</string>
+    <string name="change_password">Change Password</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Dimo Sales Pad</string>
+    <string name="title_activity_home">Home</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="type_prompt">Select Type</string>
+
+    <string-array name="type">
+        <item>Add Tour plan</item>
+        <item>Add Plan To existing Tour Plan</item>
+    </string-array>
+    <string-array name="catogery">
+        <item>Dealer</item>
+        <item>Garage</item>
+        <item>Fleet Owner</item>
+        <item>New Shop</item>
+        <item>Vehicle Owner</item>
+    </string-array>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Purchase Order</item>
+        <item>Marketing Activities</item>
+        <item>Garage</item>
+        <item>Registration</item>
+        <item>Reports</item>
+        <item>Payment</item>
+        <item>Sales Visit</item>
+        <item>Market Feed Back</item>
+        <item>Target</item>
+        <item>Nonsense</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+
+    <string-array name="banks">
+        <item>Sampath bank</item>
+        <item>BOC</item>
+        <item>Commercial bank</item>
+        <item>Sampath bank</item>
+        <item>Nation Trust</item>
+        <item>Hatton National</item>
+        <item>HSBC</item>
+    </string-array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_test">Test</string>
+    <string name="login_fail_dialog_title">Demo Sales Pad</string>
+    <string name="login_fail_dialog_message">Incorrect UserName and Password Combination</string>
+    <string name="title_activity_competitor_parts_adding">CompetitorPartsAddingActivity</string>
+    <string name="title_activity_camera"> Take a photo </string>
+    <string name="title_activity_call__order__fragment">Call_Order_Fragment</string>
+    <string name="title_activity_activity_invisible">Activity_invisible</string>
+    <string name="title_activity_dealer_reg">DealerReg</string>
+
+</resources>

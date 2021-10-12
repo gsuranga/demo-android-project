@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2000" >
+
+    <EditText
+        android:id="@+id/edit_text_comment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="500"
+        android:layout_margin="5dp"
+        android:hint="enter comment here"
+        />
+
+      <EditText
+        android:id="@+id/edit_text_qty"
+       android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="500"
+        android:layout_margin="5dp"
+        android:inputType="numberDecimal"
+           android:hint="enter quantity here"/>
+
+    <Button
+        android:id="@+id/button_update"
+       android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="500"
+        android:text="Update" 
+        android:background="@drawable/greenbutton"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="500"
+        android:text="Cancel" 
+        android:background="@drawable/greenbutton"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>

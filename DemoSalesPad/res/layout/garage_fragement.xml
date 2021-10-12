@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/webview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" />
+
+
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!--               android:layout_width="match_parent" -->
+<!--               android:layout_height="match_parent" -->
+<!--               android:orientation="vertical"> -->
+
+<!--     <TableLayout -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:stretchColumns="1"> -->
+
+<!--         <TableRow -->
+<!--                 android:id="@+id/tableRow2" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="match_parent"> -->
+
+<!--             <TextView -->
+<!--                     android:id="@+id/label_g_name" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="Garage Name"/> -->
+
+<!--             <EditText -->
+<!--                     android:id="@+id/g_name" -->
+<!--                     android:layout_width="match_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:ems="10"/> -->
+<!--         </TableRow> -->
+
+<!--         <TableRow -->
+<!--                 android:id="@+id/tableRow3" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content"> -->
+
+<!--             <TextView -->
+<!--                     android:id="@+id/label_g_adress" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="Garage Address"/> -->
+
+<!--             <EditText -->
+<!--                     android:id="@+id/g_address" -->
+<!--                     android:layout_width="match_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:ems="10"/> -->
+<!--         </TableRow> -->
+
+<!--         <TableRow -->
+<!--                 android:id="@+id/tableRow4" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content"> -->
+
+<!--             <TextView -->
+<!--                     android:id="@+id/label_g_contact_no" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="Contact No"/> -->
+
+<!--             <EditText -->
+<!--                     android:id="@+id/g_contact_no" -->
+<!--                     android:layout_width="match_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+
+<!--                     android:ems="10"/> -->
+<!--         </TableRow> -->
+
+<!--         <TableRow -->
+<!--                 android:id="@+id/tableRow4" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content"> -->
+
+<!--             <TextView -->
+<!--                     android:id="@+id/l_g_officer" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="Officer Name"/> -->
+
+<!--             <EditText -->
+<!--                     android:id="@+id/g_officer" -->
+<!--                     android:layout_width="match_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+
+<!--                     android:ems="10"/> -->
+<!--         </TableRow> -->
+
+<!--         <TableRow -->
+<!--                 android:id="@+id/tableRow4" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content"> -->
+
+<!--             <TextView -->
+<!--                     android:id="@+id/label_n_dealer" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="Nearest TATA Dealer"/> -->
+
+<!--             <ceylon.linux.view.CustomAutoCompleteTextView -->
+<!--                     android:id="@+id/n_dealer" -->
+<!--                     android:layout_width="match_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:ems="10"> -->
+<!--             </ceylon.linux.view.CustomAutoCompleteTextView> -->
+<!--         </TableRow> -->
+
+<!--         <TableRow -->
+<!--                 android:id="@+id/tableRow4" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content"> -->
+
+<!--             <TextView -->
+<!--                     android:id="@+id/label_g_remark" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="Remark"/> -->
+
+<!--             <EditText -->
+<!--                     android:id="@+id/g_remark" -->
+<!--                     android:layout_width="match_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:ems="10"/> -->
+<!--         </TableRow> -->
+
+<!--         <TableRow -->
+<!--                 android:id="@+id/tableRow5" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content"> -->
+
+<!--             <Button -->
+<!--                     android:id="@+id/save_garage" -->
+<!--                     android:layout_width="fill_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="Save Customer"/> -->
+<!--         </TableRow> -->
+<!--     </TableLayout> -->
+
+
+<!--     <TableLayout -->
+<!--             android:id="@+id/newly_added_garages" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_weight="1" -->
+<!--             android:stretchColumns="*"> -->
+<!--     </TableLayout> -->
+
+
+<!-- </LinearLayout> -->

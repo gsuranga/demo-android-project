@@ -1,0 +1,200 @@
+{
+  district: [
+    {
+      "district_id": 1,
+      "district_name": "Colombo",
+      "district_code": "CO",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 2,
+      "district_name": "Gampaha",
+      "district_code": "GQ",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 3,
+      "district_name": "Kalutara",
+      "district_code": "KT",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 4,
+      "district_name": "Kandy",
+      "district_code": "KY",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 5,
+      "district_name": "Matale",
+      "district_code": "MT",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 6,
+      "district_name": "Nuwaraeliya",
+      "district_code": "NW",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 7,
+      "district_name": "Batticaloa",
+      "district_code": "BC",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 8,
+      "district_name": "Trincomalee",
+      "district_code": "TC",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 9,
+      "district_name": "Ampara",
+      "district_code": "APR",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 10,
+      "district_name": "Jaffna",
+      "district_code": "JA",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 11,
+      "district_name": "Mannar",
+      "district_code": "MB",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 12,
+      "district_name": "Mullaitivu",
+      "district_code": "MP",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 13,
+      "district_name": "Vavuniya",
+      "district_code": "VA",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 14,
+      "district_name": "Anuradhapura",
+      "district_code": "AD",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 15,
+      "district_name": "Polonnaruwa",
+      "district_code": "PR",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 16,
+      "district_name": "Kurunegala",
+      "district_code": "KG",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 17,
+      "district_name": "Puttalam",
+      "district_code": "PX",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 18,
+      "district_name": "Ratnapura",
+      "district_code": "RN",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 19,
+      "district_name": "Kegalle",
+      "district_code": "KE",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 20,
+      "district_name": "Galle",
+      "district_code": "GL",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 21,
+      "district_name": "Matara",
+      "district_code": "MH",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 22,
+      "district_name": "Hambantota",
+      "district_code": "HB",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 23,
+      "district_name": "Badulla",
+      "district_code": "BD",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 24,
+      "district_name": "Monaragala",
+      "district_code": "MJ",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 26,
+      "district_name": "Galle",
+      "district_code": 09,
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 27,
+      "district_name": "MATARA",
+      "district_code": "MA",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 28,
+      "district_name": "MATARA",
+      "district_code": "MA",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 1
+    },
+    {
+      "district_id": 29,
+      "district_name": "ASD",
+      "district_code": "DA",
+      "time_stamp": "0000-00-00 00:00:00",
+      "status": 0
+    }
+  ]
+}

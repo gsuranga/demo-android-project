@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4.5" >
+
+    <EditText
+        android:id="@+id/select_part1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textSize="25sp" />
+
+    <ListView
+        android:id="@+id/part_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.25" />
+
+    <LinearLayout
+        android:id="@+id/back_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/greenbutton"
+            android:text="Move to Purchase Order" />
+
+        <Button
+            android:id="@+id/back2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/greenbutton"
+            android:text="Move to Invoice info" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <Button
+            android:id="@+id/c1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF0000"
+            android:clickable="false"
+            android:text="Invoice Info" />
+
+        <Button
+            android:id="@+id/c2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFF00"
+            android:clickable="false"
+            android:text="Fast Moving Item" />
+
+        <Button
+            android:id="@+id/c3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF00FF"
+            android:clickable="false"
+            android:text="Target Not achieved" />
+
+        <Button
+            android:id="@+id/c4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#009933"
+            android:clickable="false"
+            android:text="Added Items" />
+    </LinearLayout>
+
+</LinearLayout>

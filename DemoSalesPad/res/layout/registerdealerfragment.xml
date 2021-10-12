@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent" android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TableLayout android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" android:weightSum="4">
+            <TextView
+                    android:id="@+id/label_customer_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:text="Dealer Search "/>
+
+            <ceylon.linux.view.CustomAutoCompleteTextView2
+                    android:id="@+id/d_name" android:layout_width="0dp"
+                    android:layout_height="wrap_content" android:layout_weight="1.4"
+                    android:ems="10"/>
+
+            <TextView
+                    android:id="@+id/label_new_dealer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:text="New Dealers "/>
+
+            <Spinner
+                    android:id="@+id/new_dealer"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.4"/>
+        </TableRow>
+
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+
+            <TextView android:id="@+id/label_account_number"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Dealer Name"/>
+
+            <ceylon.linux.view.CustomAutoCompleteTextView2
+                    android:id="@+id/account_number" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:ems="10"/>
+        </TableRow>
+
+        <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+
+            <TextView android:id="@+id/label_adress"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Dealer Address "/>
+
+            <EditText android:id="@+id/c_address" android:layout_width="match_parent"
+                      android:layout_height="wrap_content" android:ems="10"/>
+        </TableRow>
+
+        <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+
+        <TableRow android:id="@+id/tableRow6" android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+
+            <TextView android:id="@+id/label_for_officer"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Shop Name"/>
+
+            <EditText android:id="@+id/officer" android:layout_width="match_parent"
+                      android:layout_height="wrap_content" android:ems="10"/>
+        </TableRow>
+
+        <TableRow android:id="@+id/tableRow7" android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+
+            <TextView android:id="@+id/label_c_no" android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" android:text="Officer Name"/>
+
+            <EditText android:id="@+id/contact_no" android:layout_width="match_parent"
+                      android:layout_height="wrap_content" android:editable="false"
+                      android:ems="10"/>
+        </TableRow>
+
+        <TableRow android:id="@+id/tableRow8" android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+
+            <TextView android:id="@+id/label_branch_name"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Branch Name"/>
+
+            <EditText android:id="@+id/branch_name"
+                      android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:editable="false" android:ems="10"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button android:id="@+id/save_dealer" android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:text="Save Dealer"/>
+
+    <ScrollView android:id="@+id/scrollView1"
+                android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TableLayout android:id="@+id/newly_added_dealers"
+                     android:layout_width="wrap_content" android:layout_height="wrap_content"
+                     android:layout_weight="1" android:stretchColumns="1,2,3"/>
+    </ScrollView>
+
+</LinearLayout>
